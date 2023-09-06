@@ -44,5 +44,5 @@ class ApplicationContextBasicFindTest {
         assertThrows(NoSuchBeanDefinitionException.class,
                 () -> ac.getBean("XXXX", MemberService.class));
     }
-    
+
 }
