@@ -22,8 +22,7 @@ public class PrototypeTest {
         System.out.println("prototypeBean2 = " + prototypeBean2);
         assertThat(prototypeBean1).isNotSameAs(prototypeBean2);
 
-        prototypeBean1.destory();
-        prototypeBean2.destory();
+
         ac.close();
 
 
