@@ -22,6 +22,9 @@ repositories {
 }
 
 dependencies {
+
+    implementation 'javax.inject:javax.inject:1'
+
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     annotationProcessor 'org.projectlombok:lombok'
